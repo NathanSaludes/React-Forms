@@ -1,0 +1,34 @@
+.wrapper {
+	// padding: 1rem;
+	// border: 0.2px dashed gray;
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+	position: relative;
+}
+
+.fieldLabel {
+	margin-bottom: 0.5rem;
+	color: #ffffff63;
+}
+
+.inputField {
+	padding: 1rem;
+	border: none;
+	border-radius: 0.3rem;
+	width: 100%;
+	outline: none;
+	background-color: #ffffff10;
+	color: white;
+
+	&:focus {
+		background-color: #ffffff1c;
+		box-shadow: 0 0 0 0.5px #ffffff6e;
+	}
+}
+
+.errorMessage {
+	color: rgb(221, 107, 122);
+	font-size: 0.8rem;
+	margin: 3px 0;
+}
